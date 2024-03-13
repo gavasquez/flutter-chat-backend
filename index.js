@@ -27,6 +27,8 @@ app.use( express.static( publicPath ) );
 app.use( '/api/login', require( './routes/auth' ) );
 // Usuarios
 app.use( '/api/usuarios', require( './routes/ususarios' ) );
+// Mensajes
+app.use( '/api/mensajes', require( './routes/mensajes' ) );
 
 
 
